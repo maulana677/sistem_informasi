@@ -40,7 +40,7 @@
             <div class="login-brand">
               <img src="assets/img/logo_imm.png" alt="logo" width="60" class="">
               <br>
-              <a href="">SIDAMA KORKOM SAINTEK</a>
+              <a href="">SIDAMA KOMISARIAT SAINTEK</a>
             </div>
 
             <div class="card card-primary">

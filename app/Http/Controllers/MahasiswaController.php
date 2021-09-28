@@ -136,7 +136,7 @@ class MahasiswaController extends Controller
         $mahasiswa->nama_sekolah = $request->input('nama_sekolah');
         $mahasiswa->foto = $request->input('foto');
         if($mahasiswa->save()){
-            $photo = $request->file('image');
+            $photo = $request->file('foto');
             if($photo != null){
                 $ext = $photo->getClientOriginalExtension();
                 $fileName = rand(10000, 50000).'.'.$ext;
@@ -144,7 +144,7 @@ class MahasiswaController extends Controller
                     if($photo->move(public_path(), $fileName)){
                         $mahasiswa = Mahasiswa::find($mahasiswa->id_mahasiswa);
                         $mahasiswa->foto = url('/').'/'.$fileName;
-                        $mahasiswa->save();
+                        $mahasiswa->update();
                     }
                 }
             }

@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="card card-primary">
-                        <form method="post" action="{{ route('mahasiswa.update', $mahasiswa->id_mahasiswa) }}">
+                        <form method="post" action="{{ route('mahasiswa.update', $mahasiswa->id_mahasiswa) }}" enctype="multipart/form-data">
                             @csrf
                             @method('put')
                             <div class="card-header">
@@ -105,10 +105,10 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Foto</label>
-                                    <input type="file" name="image" class="form-control" onchange="loadPhoto(event)">
+                                    <input type="file" name="foto" class="form-control" onchange="loadPhoto(event)">
                                 </div>
                                 <div class="form group">
-                                    <img src="{{asset ($mahasiswa->foto)}}" width="100" height="100">
+                                    <img id="photo" width="100" height="100">
                                 </div>
                                 <br>
                                 <div>
