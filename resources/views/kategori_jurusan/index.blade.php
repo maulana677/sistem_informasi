@@ -13,7 +13,7 @@
         </div>
 
         <div class="section-body">
-            <h2 class="section-title">Kategori Fakultas</h2>
+            <h2 class="section-title">Kategoriii Fakultas</h2>
             <p class="section-lead">
               Halaman Data Kategori Fakultas
             </p>
