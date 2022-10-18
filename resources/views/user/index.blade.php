@@ -42,7 +42,8 @@
                                             <td>{{ $loop->iteration }}</td>
                                             <td>{{$data->name}}</td>
                                             <td>{{$data->email}}</td>
-                                            <td>{{$data->level}}</td>
+                                            <td>
+                                                <h5><span class="badge badge-primary">{{$data->level}}</span></h5></td>
                                             <td>
                                                 <a href="{{route('user.show', $data->id)}}" class="btn btn-primary"><i class="fa fa-eye"></i></a>
                                                 <a href="{{route('user.edit', $data->id)}}" class="btn btn-warning"><i class="fas fa-pen"></i></a>

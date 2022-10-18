@@ -47,7 +47,7 @@
                                             </tr>
                                             <tr>
                                                 <th>Level</th>
-                                                <td>{{ $user->level }}</td>
+                                                <td><h5><span class="badge badge-primary">{{$user->level}}</span></h5></td>
                                             </tr>
                                         </tbody>
                                     </table>
