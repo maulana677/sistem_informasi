@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## Sistem Informasi Data Mahasiswa IMM Komisariat Saintek Universitas Lampung
+## Sistem Informasi Data Mahasiswa IMM Universitas Lampung Komisariat Saintek
 
 Sistem Informasi Data Mahasiswa IMM Komisariat Saintek Universitas Lampung
 
